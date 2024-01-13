@@ -1,12 +1,12 @@
-import Navbar from "../Navbar/Navbar";
+import classes from "./landing.module.css"
 
 
 
 export default function Landing() {
   return (
     <>
-      <div>
-        <Navbar/>
+      <div className={`${classes.landingSection}`}>
+        <p>Landing</p>
       </div>
     </>
   )

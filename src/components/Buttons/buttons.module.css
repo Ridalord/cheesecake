@@ -1,0 +1,10 @@
+.buttons{
+  padding: 10px 20px;
+  border-radius: 38px;
+  border: 2px solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+  font-family: var(--font-poppins);
+  font-size: 13px;
+  font-weight: 500;
+}

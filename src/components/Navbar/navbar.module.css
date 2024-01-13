@@ -1,0 +1,40 @@
+.navBar{
+  padding-top: 20px !important;
+}
+.navBar>.container{
+  gap: 3rem !important;
+}
+.logo{
+  margin: 0;
+}
+.navList{
+  background: var(--primary-color2);
+  border-radius: 10px;
+}
+.navItem{
+  border-radius: 8px;
+  color: var(--color-white) !important;
+  font-family: var(--font-inter);
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  padding: 10px 30px !important;
+}
+.navItem:hover,
+.active{
+  background-color: var(--color-white) !important;
+  color: var(--primary-color2) !important;
+}
+.customToggle{
+  border: none !important;
+  box-shadow: none !important;
+}
+
+@media (max-width: 767px) {
+  .navBar{
+    padding-top: 10px !important;
+    padding-bottom: 0 !important;
+  }
+  .navBar>.container{
+    gap: 0 !important;
+  }
+}

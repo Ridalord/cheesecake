@@ -1,0 +1,25 @@
+:root {
+  --font-poppins: 'Poppins', sans-serif;
+  --primary-color: #523728;
+  --primary-color2: rgba(111, 68, 54, 0.80);
+  --color-white: #fff;
+  --font-inter: 'Inter', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img{
+  width: 100%;
+  height: auto;
+}
