@@ -1,0 +1,63 @@
+.landingSection{
+  height: 100svh;
+  background-image: url("./landingbd.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0 7%;
+  padding-top: 20vh;
+  flex-wrap: wrap;
+}
+.landingSection>div{
+  align-items: center;
+}
+.content>h1{
+  color: var(--primary-color);
+  font-size: 69px;
+  font-weight: 400;
+  line-height: 120%;
+  font-family: var(--font-inika);
+}
+.content>p{
+  color: var(--primary-color3);
+  font-family: var(--font-inter);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 180%;
+  width: 65%;
+}
+.content>div{
+  margin-top: 20px;
+  width: fit-content;
+  column-gap: 20px;
+}
+.landingSection>div:last-child{
+  position: relative;
+}
+.landingSection>div:last-child>img{
+  position: absolute;
+  width: 773px;
+  height: 743px;
+  left: -240px;
+  top: -150px;
+}
+
+@media (max-width: 767px) {
+  .landingSection{
+    padding-top: 0;
+  }
+  .landingSection>div{
+    width: 100%;
+  }
+  .content>h1 {
+    font-size: 35px;
+  }
+  .landingSection>div:last-child{
+    display: none;
+  }
+  .content>p{
+    width: 100%;
+    font-size: 15px;
+    line-height: 150%;
+  }
+}

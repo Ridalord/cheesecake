@@ -1,9 +1,31 @@
 :root {
   --font-poppins: 'Poppins', sans-serif;
+  --font-inter: 'Inter', sans-serif;
+  --font-inika: 'Inika', sans-serif;
   --primary-color: #523728;
   --primary-color2: rgba(111, 68, 54, 0.80);
+  --primary-color3: rgba(27, 11, 11, 0.75);
   --color-white: #fff;
-  --font-inter: 'Inter', sans-serif;
+}
+body{
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+}
+
+body::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 6px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
 }
 
 *{
