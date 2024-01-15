@@ -1,3 +1,4 @@
+import Blog from "../Blog/Blog";
 import Landing from "../Landing/Landing";
 import Menu from "../Menu/Menu";
 
@@ -10,6 +11,7 @@ export default function Home() {
       {/* <h1>Home</h1> */}
       <Landing />
       <Menu />
+      <Blog/>
     </>
   )
 }

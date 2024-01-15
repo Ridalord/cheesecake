@@ -1,0 +1,13 @@
+.blogWrap{
+  padding: 60px 8%;
+  background-color: var(--primary-color5);
+}
+
+.header{
+  text-align: center;
+  color: var(--primary-color4);
+}
+.header>h2{
+  font-family: var(--font-inika);
+  font-size: 64px;
+}
