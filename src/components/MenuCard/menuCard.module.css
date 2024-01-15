@@ -1,0 +1,51 @@
+.cardWrap{
+  border-radius: 41px;
+  background-color: var(--primary-color5);
+  width: 28%;
+  padding: 20px 30px 30px 20px;
+}
+
+.imageWrap{
+  width: 55%;
+  margin: 0 auto;
+}
+
+.itemDetails{
+  margin-top: 20px;
+}
+
+.itemDetails>h5{
+  color: #1D2729;
+  font-family: var(--font-inika);
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.itemDetails>p{
+  color: var(--primary-color6);
+  font-family: var(--font-recursive);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.price>span:first-child{
+  color: var(--primary-color7);
+  font-family: var(--font-inter);
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.price>span:last-child{
+  color: var(--primary-color4);
+  font-family: var(--font-inter);
+  font-size: 18px;
+  font-weight: 700;
+  margin-left: 1px;
+}
+
+@media (max-width: 767px) {
+  .cardWrap{
+    width: 100%;
+  }
+}

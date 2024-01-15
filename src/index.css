@@ -2,12 +2,18 @@
   --font-poppins: 'Poppins', sans-serif;
   --font-inter: 'Inter', sans-serif;
   --font-inika: 'Inika', sans-serif;
+  --font-recursive: 'Recursive', sans-serif;
   --primary-color: #523728;
   --primary-color2: rgba(111, 68, 54, 0.80);
   --primary-color3: rgba(27, 11, 11, 0.75);
+  --primary-color4: rgba(106, 64, 40, 0.90);
+  --primary-color5: #FFF8E1;
+  --primary-color6: #555;
+  --primary-color7: #53A623;
   --color-white: #fff;
 }
-body{
+
+body {
   overflow-x: hidden;
 }
 
@@ -28,20 +34,20 @@ body::-webkit-scrollbar-thumb:hover {
   background-color: #555;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
 }
 
-ul{
+ul {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-img{
+img {
   width: 100%;
   height: auto;
 }

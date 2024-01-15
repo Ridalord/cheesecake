@@ -1,0 +1,44 @@
+.menuContainer {
+  background-color: var(--primary-color4);
+  padding: 50px 0 35px;
+  flex-direction: column;
+}
+
+.menuContainer>h2 {
+  text-align: center;
+  font-family: var(--font-inika);
+  color: var(--color-white);
+  font-size: 64px;
+}
+
+.menuContainer>div:last-child {
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  font-size: 20px;
+  column-gap: 20px;
+  padding-right: 30px;
+  cursor: pointer;
+}
+
+.menuContainer>div:last-child>span:last-child>img {
+  height: 15px;
+  margin-bottom: 2px;
+}
+
+.menuWrap{
+  padding: 0 8%;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 767px) {
+  .menuContainer>h2 {
+    font-size: 45px;
+  }
+
+  .menuWrap{
+    row-gap: 35px;
+    margin-bottom: 30px;
+  }
+}
