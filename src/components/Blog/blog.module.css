@@ -17,4 +17,15 @@
 
 .postWrap{
   flex-wrap: wrap;
+  margin-top: 60px;
+}
+
+@media (max-width: 767px) {
+  .postWrap{
+    row-gap: 25px;
+  }
+
+  .header>h2{
+    font-size: 45px;
+  }
 }

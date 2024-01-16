@@ -4,6 +4,7 @@
   box-shadow: -2px -9px 42px 0px rgba(77, 66, 44, 0.38);
   border-radius: 19px;
   font-family: var(--font-poppins);
+  cursor: pointer;
 }
 
 .blogImage{

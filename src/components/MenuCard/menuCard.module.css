@@ -3,6 +3,7 @@
   background-color: var(--primary-color5);
   width: 28%;
   padding: 20px 30px 30px 20px;
+  cursor: pointer;
 }
 
 .imageWrap{
