@@ -1,0 +1,52 @@
+.cardWrap {
+  padding: 30px 30px 20px;
+  width: 28%;
+  box-shadow: -2px -9px 42px 0px rgba(77, 66, 44, 0.38);
+  border-radius: 19px;
+  font-family: var(--font-poppins);
+}
+
+.blogImage{
+  height: 250px;
+  border-radius: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.cardWrap>h5{
+  color: var(--primary-color8);
+  font-family: var(--font-outfit);
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.cardWrap>h3{
+  color: var(--primary-color4);
+  font-size: 22px;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.cardWrap>p{
+  color: var(--primary-color4);
+  font-size: 12.5px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.cardWrap>span>a{
+  text-decoration: none;
+  color: var(--primary-color4);
+  font-size: 15.5px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+@media (max-width: 767px) {
+  .cardWrap {
+    width: 100%;
+  }
+}

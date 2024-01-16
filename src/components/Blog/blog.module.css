@@ -6,8 +6,15 @@
 .header{
   text-align: center;
   color: var(--primary-color4);
+  font-family: var(--font-inter);
 }
+
 .header>h2{
   font-family: var(--font-inika);
   font-size: 64px;
+  margin-bottom: 0;
+}
+
+.postWrap{
+  flex-wrap: wrap;
 }

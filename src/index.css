@@ -3,6 +3,7 @@
   --font-inter: 'Inter', sans-serif;
   --font-inika: 'Inika', sans-serif;
   --font-recursive: 'Recursive', sans-serif;
+  --font-outfit: 'Outfit', sans-serif;
   --primary-color: #523728;
   --primary-color2: rgba(111, 68, 54, 0.80);
   --primary-color3: rgba(27, 11, 11, 0.75);
@@ -10,6 +11,7 @@
   --primary-color5: #FFF8E1;
   --primary-color6: #555;
   --primary-color7: #53A623;
+  --primary-color8: #BB6939;
   --color-white: #fff;
 }
 
