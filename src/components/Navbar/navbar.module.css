@@ -8,7 +8,7 @@
   gap: 3rem !important;
 }
 .logo{
-  margin: 0;
+  margin: 0 !important;
 }
 .navList{
   background: var(--primary-color2);
