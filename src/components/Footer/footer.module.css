@@ -25,6 +25,11 @@ footer .img {
   margin-bottom: 0;
 }
 
+footer .img:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
 
 
 .socialIcons {
@@ -38,6 +43,13 @@ footer .img {
   border-radius: 50%;
   padding: 10px;
   color: #000000;
+}
+
+.icons:hover {
+  color: var(--color-white);
+  background-color: #FCAE36;
+  cursor: pointer;
+  transition: all .3s ease;
 }
 
 .icons:first-child {
@@ -92,5 +104,12 @@ footer .img {
   border-radius: 1.5rem;
   color: #000000;
   background-color: #FCAE36;
+}
+
+.btn:hover {
+  color: var(--color-white);
+  background-color: transparent;
+  border: 1px solid #FCAE36;
+  transition: all .3s ease;
 }
 
