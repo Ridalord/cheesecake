@@ -1,0 +1,115 @@
+.footer {
+  background-color: var(--primary-color);
+  padding: 60px 8%;
+  color: var(--primary-color5);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+}
+
+
+footer .header {
+  font-family: var(--font-inika);
+  text-transform: capitalize;
+  padding: 0.7rem 0;
+}
+
+footer .img {
+  width: 20vw;
+  height: 20vw;
+  border-radius: 50%;
+  margin: 1rem 0;
+  margin-bottom: 0;
+}
+
+footer .img:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+
+
+.socialIcons {
+  margin: 0.9rem 0;
+}
+
+.icons {
+  margin-right: 1rem;
+  font-size: 2.5rem;
+  background-color: var(--color-white);
+  border-radius: 50%;
+  padding: 10px;
+  color: #000000;
+}
+
+.icons:hover {
+  color: var(--color-white);
+  background-color: #FCAE36;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.icons:first-child {
+  background-color: #FCAE36;
+  color: var(--color-white);
+}
+
+
+/* contact Form */
+.footerRight {
+  /* margin-left: 8%; */
+  position: relative;
+}
+
+.contactForm {
+  max-width: 400px;
+  position: absolute;
+  top: 5rem;
+}
+
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.contactForm form input,
+.contactForm form textarea {
+  height: 37px;
+  width: 100%;
+  border-radius: 1.5rem;
+  border: none;
+  padding: 0 1rem;
+  color: var(--primary-color6);
+}
+
+.contactForm form textarea {
+  height: 150px;
+  padding: 1rem 1rem;
+}
+
+.contactForm form input:focus,
+.contactForm form textarea:focus {
+  outline: none;
+}
+
+/* footer btn */
+.btn {
+  cursor: pointer;
+  border: none;
+  padding: 10px 10px;
+  border-radius: 1.5rem;
+  color: #000000;
+  background-color: #FCAE36;
+}
+
+.btn:hover {
+  color: var(--color-white);
+  background-color: transparent;
+  border: 1px solid #FCAE36;
+  transition: all .3s ease;
+}
+
