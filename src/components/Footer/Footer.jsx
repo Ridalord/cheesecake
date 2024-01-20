@@ -1,6 +1,5 @@
 import classes from "./footer.module.css"
 import FooterImage from "./footerImage.png"
-// import { FacebookIcon } from "./facebook.svg";
 
 
 
