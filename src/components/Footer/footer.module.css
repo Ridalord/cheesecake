@@ -113,3 +113,36 @@ footer .img:hover {
   transition: all .3s ease;
 }
 
+@media only screen and (max-width: 767px) {
+  .footer {
+    height: 100%;
+  }
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 7rem;
+  }
+
+  .footerRight {
+    order: 1;
+  }
+
+  .footerLeft {
+    order: 2;
+  }
+
+  .contactForm {
+    position: relative;
+    top: 2rem;
+  }
+  footer .img {
+    width: 60vw;
+    height: 60vw;
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+  .footer {
+    height: 100%;
+  }
+}
