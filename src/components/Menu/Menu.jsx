@@ -1,5 +1,5 @@
 import classes from "./menu.module.css"
-import ArrowRight from "./ArrowRight.svg"
+import ArrowRight from "./arrowRight.svg"
 import MenuCard from "../MenuCard/MenuCard"
 import BlueberryCheesecake from "./blueberry.png"
 import BiscoffCheesecake from "./biscoff.png"
