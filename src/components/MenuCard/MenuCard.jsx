@@ -1,4 +1,4 @@
-import classes from "./menucard.module.css"
+import classes from "./menuCard.module.css"
 import PropTypes from 'prop-types';
 import Stars from "./stars.png"
 
